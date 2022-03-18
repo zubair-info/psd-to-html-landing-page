@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+button {
+  display: inline-block;
+  padding: 6px 55px;
+  font-size: 16px;
+  margin: 50px 0px 15px 0px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+  background-color: #7b77c9;
+  color: white;
+  border: 0;
+}
+
+.bg-1 {
+  background-color: #23232e;
+  text-align: center;
+  padding: 20px 20%;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+}
+
+.bg-2 {
+  background-image: url("../img/back.png");
+  text-align: center;
+  padding: 20px 20%;
+  color: #464b4f;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+}
+
+.col{
+  width: 29%;
+  margin: 10px;
+  float: left;
+  box-sizing: border-box;
+}
+.col img{
+  width: 100%;
+}
+/* header starts  */
+.header {
+  height: 500px;
+}
+.header img {
+  width: 11%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.header .para {
+  font-size: 18px;
+  margin-bottom: 150px;
+}
+
+.header .circle {
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  padding: 2px 7px;
+  
+}
+/* header ends */
+
+/* what i do section start */
+
+.what-i-do p {
+  margin: 30px 0px;
+  font-size: 24px;
+  font-weight: 26px;
+}
+
+
+.what-i-do .col h4 {
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: left;
+
+}
+
+.what-i-do .col p {
+  font-size: 18px;
+  text-align: left;
+}
+
+/* what i do section ends */
+
+
+
+/* my work section starts */
+
+.my-work {
+  margin-top: 80px;
+  padding-top: 50px;
+  height: 750px;
+}
+
+.my-work .menu {
+  width: 100%;
+  margin-left: 150px;
+}
+
+.my-work .menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.my-work .menu ul li {
+  float: left;
+  padding: 5px 15px;
+}
+.my-work .menu ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  padding-bottom: 3px;
+}
+.my-work .menu ul li a:hover{
+  border-bottom: 2px solid red;
+
+}
+/* my work section ends */
+
+
+
+
+/* photography part starts */
+.photography {
+  margin: 80px 0px;
+  height: 700px;
+
+}
+
+.photography p {
+  padding: 20px 0px;
+  font-size: 18px;
+}
+
+/* photography part ends */
+
+
+
+/* subscribe parts start */
+
+.subscribe {
+  height: 400px;
+}
+.subscribe img {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.subscribe p {
+  font-size: 18px;
+}
+.subscribe input {
+  width: 30%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* subscribe parts end  */
+
+
+
+
+/* footer part starts */
+
+.footer {
+  height: 200px;
+  margin-top: 80px;
+  
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  /* margin-left: 250px; */
+  justify-content: center;
+
+}
+.footer ul li {
+  /* float: left; */
+  justify-content:space-around; 
+  padding: 10px 30px;
+}
+.footer ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  padding-bottom: 3px;
+
+}
+
+.footer p{
+  padding-bottom: 5px;
+}
+
+/* footer part starts */
+
+
